@@ -1,0 +1,18 @@
+@page "/contador"
+
+<PageTitle>Contador</PageTitle>
+
+@*Alterei essa parte do código pra estilização ficar a mesma do resto da base do blazor*@
+@*<h1>Número de cliques: @quantidade</h1>*@
+<p role="status">Número de cliques: @quantidade</p>
+
+<button class="btn btn-primary" @onclick="Incrementar">Clique Aqui</button>
+
+@code {
+    private int quantidade = 0;
+
+    private void Incrementar()
+    {
+        quantidade++;
+    }
+}

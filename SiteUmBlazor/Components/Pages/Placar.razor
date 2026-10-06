@@ -1,0 +1,36 @@
+@page "/placar"
+
+<PageTitle>Placar</PageTitle>
+
+<h1>Placar</h1>
+@*Novamente, alterei por conta do bootstrap padrão*@
+@*<h2>Pontos: @pontos</h2>*@
+
+<p role="status">Pontos: @pontos</p>
+
+<butto class="btn btn-primary" @onclick="Somar">Somar 1 Ponto</butto>
+<button class="btn btn-primary" @onclick="Subtrair">Subtrair 1 Ponto</button>
+<button class="btn btn-primary" @onclick="Zerar">Zerar Placar</button>
+
+@code {
+    private int pontos = 0;
+
+    private void Somar()
+    {
+        pontos++;
+    }
+
+    private void Subtrair()
+    {
+        pontos--;
+        if (pontos < 0)
+        {
+            pontos = 0;
+        }
+    }
+
+    private void Zerar()
+    {
+        pontos = 0;
+    }
+}

@@ -1,0 +1,21 @@
+@page "/mensagem"
+
+<PageTitle>Mensagem</PageTitle>
+
+<button class="btn btn-primary" @onclick="AlternarVisibilidade">
+    @(exibirMensagem ? "Ocultar Mensagem" : "Exibir Mensagem")
+</button>
+
+@if (exibirMensagem)
+{
+    <p class="mt-3">Bem-vindo ao desenvolvimento web com .NET 10!</p>
+}
+
+@code {
+    private bool exibirMensagem = false;
+
+    private void AlternarVisibilidade()
+    {
+        exibirMensagem = !exibirMensagem;
+    }
+}
