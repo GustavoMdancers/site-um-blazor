@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiteUmBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+129838778b090e8a1a44af98e3a271d1768ae286")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca2b91bf4e468aa60c254de9baac235866aee362")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiteUmBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiteUmBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

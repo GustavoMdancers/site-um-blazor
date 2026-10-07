@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+out/
+build/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+.nuget/
+*.nupkg
+*.snupkg
+packages/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.pfx
+*.p12
+
+# Publish output for Blazor Server and WebAssembly
+publish/
+bin/
+obj/
+
+# Local environment files
+appsettings.*.local.json
+appsettings.*.json
+
+# Node modules (if using npm for front-end)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
